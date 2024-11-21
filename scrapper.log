@@ -108,3 +108,21 @@ INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'ba
 INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 16:01:17] "POST /review HTTP/1.1" 200 -
 INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
 INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 16:02:30] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.65.107:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 20:43:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 20:43:45] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 20:43:45] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 20:43:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 20:44:07] "POST /review HTTP/1.1" 200 -
+INFO:root:No connection adapters were found for 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAD1BMVEUAAAALV9AMWM8LV9AMWM/cqVvwAAAABXRSTlMAv4D/QIO3/x8AAADqSURBVHgBxJFHEgIxDARnw51g7sQHYMSd+P83UZaqN99pkgu5vRpLf2arZSo7aJHablrmHMrpmGyze06V+mxOpoLyMTiMldaGlWUlC/QZK3cF5T9XtpvJYY1ZUQ5Sm0ZK6nfVoTwVd2Ku6H2RIs5VEmt/yk4Nu0Q70dizZhcn5ciyVl/4RCHi35Q4i5VcKT8UWLlCIUus5MpXRBSZGGXi4RQOrtC8CoRlLgTkSoZzWWsQ/SAURkXEJ4oLKIXNyVzJgpcZFAVBNM8lCxgpypB6qMDIyQlF8N6Uvn4jmPgxAb20GOLK4CoMVAUA2/FUWazwZNUAAAAASUVORK5CYII='
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 20:44:52] "POST /review HTTP/1.1" 200 -
+INFO:root:No connection adapters were found for 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAD1BMVEUAAAALV9AMWM8LV9AMWM/cqVvwAAAABXRSTlMAv4D/QIO3/x8AAADqSURBVHgBxJFHEgIxDARnw51g7sQHYMSd+P83UZaqN99pkgu5vRpLf2arZSo7aJHablrmHMrpmGyze06V+mxOpoLyMTiMldaGlWUlC/QZK3cF5T9XtpvJYY1ZUQ5Sm0ZK6nfVoTwVd2Ku6H2RIs5VEmt/yk4Nu0Q70dizZhcn5ciyVl/4RCHi35Q4i5VcKT8UWLlCIUus5MpXRBSZGGXi4RQOrtC8CoRlLgTkSoZzWWsQ/SAURkXEJ4oLKIXNyVzJgpcZFAVBNM8lCxgpypB6qMDIyQlF8N6Uvn4jmPgxAb20GOLK4CoMVAUA2/FUWazwZNUAAAAASUVORK5CYII='
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 20:45:07] "POST /review HTTP/1.1" 200 -
+INFO:root:No connection adapters were found for 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAD1BMVEUAAAALV9AMWM8LV9AMWM/cqVvwAAAABXRSTlMAv4D/QIO3/x8AAADqSURBVHgBxJFHEgIxDARnw51g7sQHYMSd+P83UZaqN99pkgu5vRpLf2arZSo7aJHablrmHMrpmGyze06V+mxOpoLyMTiMldaGlWUlC/QZK3cF5T9XtpvJYY1ZUQ5Sm0ZK6nfVoTwVd2Ku6H2RIs5VEmt/yk4Nu0Q70dizZhcn5ciyVl/4RCHi35Q4i5VcKT8UWLlCIUus5MpXRBSZGGXi4RQOrtC8CoRlLgTkSoZzWWsQ/SAURkXEJ4oLKIXNyVzJgpcZFAVBNM8lCxgpypB6qMDIyQlF8N6Uvn4jmPgxAb20GOLK4CoMVAUA2/FUWazwZNUAAAAASUVORK5CYII='
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 20:45:11] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 20:46:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Nov/2024 20:46:47] "POST /review HTTP/1.1" 200 -
